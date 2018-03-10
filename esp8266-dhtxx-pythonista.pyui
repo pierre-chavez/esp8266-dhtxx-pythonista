@@ -1,0 +1,182 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {320, 480}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 28,
+          "text" : "DHT Sensor",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2FF44594-D11D-47FE-AEE6-329D15312D11"
+        },
+        "frame" : "{{32, 35}, {191, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 25,
+          "text" : "Temperature °C",
+          "font_name" : "<System>",
+          "name" : "label2",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "DD1DDEC7-73B1-44B5-8C40-7754ACC68F29"
+        },
+        "frame" : "{{31, 97}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 25,
+          "text" : "Humidity %",
+          "font_name" : "<System>",
+          "name" : "label3",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "28961F87-EA72-476F-A94D-EE6FBE81FB26"
+        },
+        "frame" : "{{31, 226}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "F8079E3F-5374-463C-A2D3-1B52DC49A9B0",
+          "name" : "button1",
+          "action" : "sw1",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "background_color" : "RGBA(0.643137,1.000000,0.466667,1.000000)",
+          "title" : "2 sec"
+        },
+        "frame" : "{{24, 404}, {80, 60}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "3EC9FD09-2B9C-4430-BE39-48994B1AB23D",
+          "name" : "button2",
+          "action" : "sw2",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "background_color" : "RGBA(0.693396,0.693396,0.693396,1.000000)",
+          "title" : "5 sec"
+        },
+        "frame" : "{{120, 404}, {80, 60}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "F14A141F-7E30-4F07-8443-5E5F94AE8A66",
+          "name" : "button3",
+          "action" : "sw3",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "background_color" : "RGBA(0.693396,0.693396,0.693396,1.000000)",
+          "title" : "7 sec"
+        },
+        "frame" : "{{216, 404}, {80, 60}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 31,
+          "font_name" : "<System>",
+          "text" : "0",
+          "autocorrection_type" : "default",
+          "name" : "textfield1",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "48876A05-512A-4E0A-8C28-2B0BB07C0B13"
+        },
+        "frame" : "{{32, 145}, {191, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 30,
+          "font_name" : "<System>",
+          "text" : "0",
+          "autocorrection_type" : "default",
+          "name" : "textfield2",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "9527EB64-5A36-44D5-AAF9-AD1FB820294D"
+        },
+        "frame" : "{{32, 274}, {191, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Measurements Time",
+          "font_name" : "<System>",
+          "name" : "label4",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "E9D3C0B8-9D97-4E4F-AA9D-30829EA67FFD"
+        },
+        "frame" : "{{31, 353}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
